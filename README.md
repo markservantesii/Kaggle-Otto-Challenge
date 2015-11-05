@@ -16,7 +16,7 @@ keras_otto.py - A script that generated the neural networks.
 rf_otto.py - A script that originally generated Random Forest models. Currently used to generate Extra Trees and XGBoost modls.
 otto_file_combine.py - A script that averages the predictions from multiple files
 otto_funs.py - A file containing various utility functions I used while building models.
-XGBoostClassifier2.py - A wrapper written by [Henning Sperr](www.github.com/hsperr) for the xgb module. It follows the scikit-learn API
+XGBoostClassifier2.py - A wrapper written by [Henning Sperr](https://www.github.com/hsperr) for the xgb module. It follows the scikit-learn API
 
 # Model Tuning
 I struggled early on with tuning my models. I didn't understand the function of each parameter, and I was still learning the theory behind the models. My approach was to iteratively build many different models and the best performing ones as a starting point. I manually tweaked these models with trial and error, using some of the knowledge I had. I figured that this approach would lead to solution faster than if I started by learning the theory. My mindset was: "*What can I accomplish with limited knowledge?*"
