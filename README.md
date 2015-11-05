@@ -6,8 +6,8 @@ This write-up is still a work in progress. I hope to update this in the future t
 # What I used
 I performed all data cleaning and visualziation using R, and built all models in Python. The final model was an ensemble of Extra Trees, XGBoost, and Neural Networks. I used scikit-learn for Extra Trees, xgb with a wrapper (following scikit-learn API), and keras for Neural Networks. To summarize:
 
-**Python Modules:** sklearn, xgb, keras
-**Models:** ExtraTreesClassifier, xgboost, neural networks
+- **Python Modules:** sklearn, xgb, keras
+- **Models:** ExtraTreesClassifier, xgboost, neural networks
 
 Random Forests, Gradient Boosted Claffiers, Logistic Regression, and Topic Models (lda module) were also tested, but performed poorly.
 
