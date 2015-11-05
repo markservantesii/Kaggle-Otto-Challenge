@@ -9,6 +9,8 @@ I performed all data cleaning and visualziation using R, and built all models in
 - **Python Modules:** sklearn, xgb, keras
 - **Models:** ExtraTreesClassifier, xgboost, neural networks
 
+I initially was using the lasagne package for building neural networks. There was a bit of a learning curve for me using lasagne, but eventually I got the hang of it. Eventually I discovered keras which was incredibly easy to use and more intuitive. They performed approximately the same, so I decided to stick to keras for the ease-of-use.
+
 Random Forests, Gradient Boosted Claffiers, Logistic Regression, and Topic Models (lda module) were also tested, but performed poorly.
 
 ## The Files
